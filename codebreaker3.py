@@ -19,7 +19,8 @@ def init():
                     possibilite = c1 + c2 + c3 + c4 #Construit une combinaison
                     combinaisonPossible.add(possibilite) #L'ajoute à la liste 
                     
-    global touteCombinaisonPossible #Construit toutes les solutions possibles mais qui ne seront pas modifié contrairement à la l'ensemble au-dessus
+    global touteCombinaisonPossible#Construit toutes les solutions possibles mais qui ne seront pas modifié contrairement à la l'ensemble au-dessus
+    touteCombinaisonPossible = set()
     for c1 in common.COLORS:
         for c2 in common.COLORS:
             for c3 in common.COLORS:

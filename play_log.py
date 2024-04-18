@@ -33,6 +33,6 @@ def play(codemaker, codebreaker, nomlog, quiet=False):
 
 if __name__ == '__main__':
     # Faire jouer ensemble codemaker1.py et codebreaker2.py pour 1 partie :
-    import codebreaker2
+    import codebreaker3
     import codemaker1
-    play(codemaker1, codebreaker2, "test")
+    play(codemaker1, codebreaker3, "test")
