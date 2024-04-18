@@ -1,0 +1,10 @@
+OGNG
+1,2
+NGOB
+1,1
+NRGG
+1,1
+JGGO
+0,3
+GVOG
+4,0
